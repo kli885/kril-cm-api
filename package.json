@@ -1,7 +1,7 @@
 {
-  "name": "kril-cm-api",
-  "author": "Alberto Sánchez",
-  "description": "A typescript library for the Campaign Monitor API",
+  "name": "kli-cm-api",
+  "author": "Kevin Li",
+  "description": "Fork of A typescript library for the Campaign Monitor API",
   "module": "dist/kril-cm-api-1.esm.js",
   "version": "1.0.2",
   "license": "MIT",
@@ -50,12 +50,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krilbert/kril-cm-api.git"
+    "url": "git+https://github.com/kli885/kril-cm-api"
   },
   "bugs": {
-    "url": "https://github.com/krilbert/kril-cm-api/issues"
+    "url": "https://github.com/kli885/kril-cm-apiissues"
   },
-  "homepage": "https://github.com/krilbert/kril-cm-api#readme",
+  "homepage": "https://github.com/kli885/kril-cm-api#readme",
   "dependencies": {
     "node-fetch": "^2.6.2"
   },

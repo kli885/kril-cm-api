@@ -12,7 +12,7 @@ class Base {
     this.authHeader = ''
 
     if (apiKey) {
-      this.authHeader = 'Basic ' + Buffer.from(`${apiKey}:$x`, 'binary').toString('base64')
+      this.authHeader = `Basic ${apiKey}`
     }
 
     if (bearerToken) {

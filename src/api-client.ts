@@ -1,6 +1,6 @@
 import fetch, { RequestInit } from 'node-fetch'
 
-const apiUrl = 'https://api.createsend.com/api/v3.2'
+const apiUrl = 'https://api.createsend.com/api/v3.3'
 
 type ConfigRequest = Omit<RequestInit, 'method' | 'body'> & {
   queryParams?: Record<string, any>
