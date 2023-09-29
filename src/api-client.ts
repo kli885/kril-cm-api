@@ -17,7 +17,7 @@ const client = (method: Method) => {
       queryParams &&
       Object.keys(queryParams)
         .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(queryParams[key])}`)
-        .join('&')
+        .join('&') && ""
 
     const config: RequestInit = {
       method,

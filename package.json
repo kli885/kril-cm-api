@@ -3,7 +3,7 @@
   "author": "Kevin Li",
   "description": "Fork of A typescript library for the Campaign Monitor API",
   "module": "dist/kril-cm-api-1.esm.js",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
